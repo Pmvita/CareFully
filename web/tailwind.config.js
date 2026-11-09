@@ -1,1 +1,18 @@
-/** @type {import('tailwindcss').Config} */\nmodule.exports = {\n  content: [\n    './app/**/*.{js,ts,jsx,tsx,mdx}',\n    './pages/**/*.{js,ts,jsx,tsx,mdx}',\n    './components/**/*.{js,ts,jsx,tsx,mdx}',\n  ],\n  theme: {\n    extend: {\n      colors: {\n        primary: '#6366F1',\n        secondary: '#8B5CF6',\n        accent: '#EC4899',\n      },\n    },\n  },\n  plugins: [],\n}
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: '#6366F1',
+        secondary: '#8B5CF6',
+        accent: '#EC4899',
+      },
+    },
+  },
+  plugins: [],
+};
