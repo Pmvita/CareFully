@@ -1,4 +1,6 @@
-# Carefully
+ï»¿# Carefully
+
+**Live demo:** https://carefully-navy.vercel.app
 
 A trusted babysitter and nanny booking platform - combining the best features from Care.com, Sittercity, UrbanSitter, and Bambino.
 
@@ -39,13 +41,13 @@ Based on analysis of Care.com, Sittercity, UrbanSitter, and Bambino:
 `
 Carefully/
 +-- web/          # Next.js landing page & download page
-¦   +-- app/
-¦   ¦   +-- page.tsx      # Landing page with features
-¦   ¦   +-- download/     # Download page for the app
+ï¿½   +-- app/
+ï¿½   ï¿½   +-- page.tsx      # Landing page with features
+ï¿½   ï¿½   +-- download/     # Download page for the app
 +-- app/          # Expo React Native mobile app (iOS & Android)
-¦   +-- src/
-¦   ¦   +-- screens/     # All app screens
-¦   ¦   +-- navigation/  # Navigation setup
+ï¿½   +-- src/
+ï¿½   ï¿½   +-- screens/     # All app screens
+ï¿½   ï¿½   +-- navigation/  # Navigation setup
 +-- shared/       # Shared types and utilities
 `
 
